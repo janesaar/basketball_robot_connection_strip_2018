@@ -37,6 +37,40 @@ IncludeDesignInRelease=0
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
+[Document1]
+DocumentPath=basketball_robot_connection_strip_2018.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NJYVNTPP
+
+[Document2]
+DocumentPath=basketball_robot_connection_strip_2018.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KNKBTMGA
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -162,7 +196,7 @@ PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -989,6 +1023,30 @@ NetClassSeparateForBusSections=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=connectors.IntLib
+ComponentDesignItemID0=HEADER-16
+ComponentSymbolReference0=HEADER-16
+ComponentUpdate0=0
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=connectors.IntLib
+ComponentDesignItemID1=HEADER-4
+ComponentSymbolReference1=HEADER-4
+ComponentUpdate1=0
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=connectors.IntLib
+ComponentDesignItemID2=HEADER-6
+ComponentSymbolReference2=HEADER-6
+ComponentUpdate2=0
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=power.IntLib
+ComponentDesignItemID3=TPSM84209
+ComponentSymbolReference3=TPSM84209
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1002,6 +1060,46 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=Library Reference
+ParameterUpdate3=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=MICRO-MATCH-16
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=MICRO-MATCH-16-SMD
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=MICRO-MATCH-4
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=MICRO-MATCH-4-SMD
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=MICRO-MATCH-6
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=MICRO-MATCH-6-SMD
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=MICRO-MATCH-MOB-16
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=MICRO-MATCH-MOB-4
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=PIN-HEADER-4
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=TPSM84209
+ModelUpdate9=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1015,4 +1113,7 @@ ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Co
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
